@@ -28,7 +28,7 @@ The *Hyper V Monitoring* package is a simple, lightweight executable to be run o
 
 A GET request to the below endpoint returns this data.
 
-`http://\<host\>:20501/hvm/replicas`
+`http://<host>:20501/hvm/replicas`
 
 Additionally, the executable features support for Windows Service Management, allowing it to be installed as a service with `sc.exe`.
 
