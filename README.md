@@ -33,6 +33,37 @@ A GET request to the below endpoint returns this data.
 Additionally, the executable features support for Windows Service Management, allowing it to be installed as a service with `sc.exe`.
 
 
+### Example Output
+```
+[
+  {        
+    "id": "98873FAE-33FF-508B-429B-90102EFB1CE7",
+    "name": "Arch Linux VM",
+    "state": "running",
+    "instance_id": "Microsoft:98873FAE-33FF-508B-429B-90102EFB1CE7",
+    "allocated_gpu": "",
+    "shielded": true,
+    "other_enabled_state": "",
+    "guest_operating_system": "Arch Linux",
+    "health_state": 5,
+    "heartbeat": 5,
+    "memory_usage": 1420,
+    "memory_available": 17,
+    "available_memory_buffer": 107,
+    "number_of_processors": 1,
+    "operational_status": [2],
+    "processor_load": 1,
+    "uptime": 1234578,
+    "replication_state": 3,
+    "replication_health": "Critical",
+    "replication_mode": 2,
+    "application_health": 0,
+    "integration_services_version_state": 2,
+    "host_computer_system_name": "SJROLLINS-PC"
+  }
+]
+```
+
 
 ### Future Features
 
